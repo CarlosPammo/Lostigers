@@ -19,7 +19,7 @@
 			<Button x:Name="BtnSearch" Grid.Column="1" Margin="10" Height="30" Content="Buscar" Click="BtnSearch_Click" />
 		</Grid>
 		<DataGrid x:Name="DGContacts" Grid.Row="1" Margin="10" AutoGenerateColumns="False"
-				  DataContext="{Binding}" ItemsSource="{Binding}" IsReadOnly="True" GridLinesVisibility="All">
+				  DataContext="{Binding}" ItemsSource="{Binding}" IsReadOnly="True" GridLinesVisibility="None">
             
             
             <DataGrid.Columns>
