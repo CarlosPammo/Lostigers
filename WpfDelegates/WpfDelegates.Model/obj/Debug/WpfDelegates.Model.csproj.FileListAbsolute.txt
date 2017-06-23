@@ -1,0 +1,15 @@
+C:\Users\Phoenix\Desktop\Seminarios\WpfDelegates\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.dll
+C:\Users\Phoenix\Desktop\Seminarios\WpfDelegates\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.pdb
+C:\Users\Phoenix\Desktop\Seminarios\WpfDelegates\WpfDelegates.Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Phoenix\Desktop\Seminarios\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.dll
+C:\Users\Phoenix\Desktop\Seminarios\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.pdb
+C:\Users\pc9\Desktop\WpfDelegates\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.dll
+C:\Users\pc9\Desktop\WpfDelegates\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.pdb
+C:\Users\pc9\Desktop\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.csprojResolveAssemblyReference.cache
+C:\Users\pc9\Desktop\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.dll
+C:\Users\pc9\Desktop\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.pdb
+C:\Users\camil\Desktop\WpfDelegates\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.dll
+C:\Users\camil\Desktop\WpfDelegates\WpfDelegates.Model\bin\Debug\WpfDelegates.Model.pdb
+C:\Users\camil\Desktop\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.csprojResolveAssemblyReference.cache
+C:\Users\camil\Desktop\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.dll
+C:\Users\camil\Desktop\WpfDelegates\WpfDelegates.Model\obj\Debug\WpfDelegates.Model.pdb
