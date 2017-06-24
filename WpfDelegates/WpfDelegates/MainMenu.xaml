@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfDelegates.MainMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu Principal" Height="300" Width="500" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Label Content="Menú Principal" Grid.Column="0" Height="30" HorizontalAlignment="Left" Name="LblTitle" VerticalAlignment="Center" FontWeight="Normal" FontSize="15" Margin="10" FontStyle="Normal" Width="150" />
+            <Image Grid.Column="1" Height="75" HorizontalAlignment="Center" Margin="10" Name="ImgPeoples" Stretch="Fill" VerticalAlignment="Center" Width="75"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="BtnEntry" Grid.Column="0" Height="30" Margin="10" Content="Ingresar" Click="BtnEntry_Click" />
+            <Button x:Name="BtnExit" Grid.Column="1" Height="30" Margin="10" Content="Salir" Click="BtnExit_Click" />
+        </Grid>
+    </Grid>
+    
+</Window>
