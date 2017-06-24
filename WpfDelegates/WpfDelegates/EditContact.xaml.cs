@@ -18,19 +18,19 @@ namespace WpfDelegates
 	/// <summary>
 	/// Interaction logic for EditarContacto.xaml
 	/// </summary>
-	public partial class EditarContacto : Window
+	public partial class EditContact : Window
 	{
 		private Contact Contact { get; set; }
 		public delegate void GetContact(Contact contact);
 		public event GetContact OnAccept;
 
-        public EditarContacto()
+        public EditContact()
         {
             InitializeComponent();
             Contact = new Contact();
         }
 
-		public EditarContacto(Contact contact) : this()
+		public EditContact(Contact contact) : this()
 		{
 			TbAddress.Text = contact.Address;
             TbName.Text = contact.Name;

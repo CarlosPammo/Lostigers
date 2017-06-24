@@ -19,11 +19,11 @@ namespace WpfDelegates
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
-	public partial class MainWindow : Window
+	public partial class ListContact : Window
 	{
 		private List<Contact> Contacts { get; set; }
 
-		public MainWindow()
+		public ListContact()
 		{
 			InitializeComponent();
 			Init();
@@ -70,7 +70,7 @@ namespace WpfDelegates
 
 		private void BtnNew_Click(object sender, RoutedEventArgs e)
 		{
-			EditarContacto editor = new EditarContacto();
+			EditContact editor = new EditContact();
 			editor.OnAccept += AddNewCoctact;
 			editor.Show();
 		}
@@ -78,7 +78,7 @@ namespace WpfDelegates
         private void Update_Click(object sender, RoutedEventArgs e)
         {
             Contact selected = (Contact)DGContacts.SelectedItem;
-            EditarContacto editor = new EditarContacto(selected);
+            EditContact editor = new EditContact(selected);
             editor.OnAccept += EditContact;
             editor.Show();
         }
