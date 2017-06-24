@@ -13,6 +13,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfDelegates.Model;
 using System.Text.RegularExpressions;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace WpfDelegates
 {
@@ -35,27 +37,27 @@ namespace WpfDelegates
 				           {
 							   new Contact
 								   {
-                                        Id = 1,
-										Name = "CAMILO",
+                                        Id = "1",
+										Name = "DANIEL",
 										Lastname = "BARRON",
-										Address = "CALLE AURELIO MELEAN 778",
-										Telephone = "72771901"
+										Telephone = "72771901",
+                                        Address = "CALLE AURELIO MELEAN 778",
 								   },
 								   new Contact
 								   {
-                                        Id = 2,
+                                        Id = "2",
 										Name = "EDWIN",
 										Lastname = "CRESPO",
-										Address = "AVENIDA ANICETO ARCE 864",
-										Telephone = "60729598"
+										Telephone = "60729598",
+                                        Address = "AVENIDA ANICETO ARCE 864"
 								   },
                                    new Contact
 								   {
-                                        Id = 3,
+                                        Id = "3",
 										Name = "BRAYER",
 										Lastname = "VILLAGOMEZ",
-										Address = "CALLE JUAN DE LA CRUZ 221",
-										Telephone = "72464805"
+										Telephone = "72464805",
+                                        Address = "CALLE JUAN DE LA CRUZ 221"
 								   },
 				           };
 
@@ -110,5 +112,18 @@ namespace WpfDelegates
             Contacts.Remove(selected);
             DGContacts.Items.Refresh();
         }
+
+        /*private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Contact cont = null;
+            string path = "c://Data.xml";
+
+            XmlSerializer serializer = new XmlSerializer(typeof(Contact));
+            StreamReader reader = new StreamReader(path);
+            cont = (Contact)serializer.Deserialize(reader);
+            reader.Close();
+
+            DGContacts.Items.Add(cont);
+        }*/
 	}
 }

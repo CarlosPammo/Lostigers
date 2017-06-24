@@ -32,10 +32,11 @@ namespace WpfDelegates
 
 		public EditContact(Contact contact) : this()
 		{
-			TbAddress.Text = contact.Address;
+            TbId.Text = contact.Id;
             TbName.Text = contact.Name;
             TbLastname.Text = contact.Lastname;
             TbPhone.Text = contact.Telephone;
+            TbAddress.Text = contact.Address;
             Contact = contact;
 		}
 
@@ -46,10 +47,11 @@ namespace WpfDelegates
 
 		private void BtnAccept_Click(object sender, RoutedEventArgs e)
 		{
-			Contact.Address = TbAddress.Text;
+            Contact.Id = TbId.Text;
 			Contact.Name = TbName.Text;
 			Contact.Lastname = TbLastname.Text;
 			Contact.Telephone = TbPhone.Text;
+            Contact.Address = TbAddress.Text;
 			OnAccept(Contact);
 			Close();
 		}
