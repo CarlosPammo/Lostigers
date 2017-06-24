@@ -16,7 +16,7 @@
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
             <Label Content="Agenda de Clientes" Grid.Column="0" Height="30" HorizontalAlignment="Left" Name="LblTitle" VerticalAlignment="Center" FontWeight="Normal" FontSize="15" Margin="10" FontStyle="Normal" Width="534" />
-            <Image Grid.Column="1" Height="75" HorizontalAlignment="Center" Margin="10" Name="ImgPeoples" Stretch="Fill" VerticalAlignment="Center" Width="75" Source="/WpfDelegates;component/Images/group-of-people-in-a-formation_318-44341.jpg" />
+            <Image Grid.Column="1" Height="75" HorizontalAlignment="Center" Margin="10" Name="ImgPeoples" Stretch="Fill" VerticalAlignment="Center" Width="75"/>
         </Grid>
 
         <Grid Grid.Row="1">

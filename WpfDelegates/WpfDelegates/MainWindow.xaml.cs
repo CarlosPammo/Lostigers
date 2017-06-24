@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WpfDelegates.Model;
+using System.Text.RegularExpressions;
 
 namespace WpfDelegates
 {
@@ -35,26 +36,26 @@ namespace WpfDelegates
 							   new Contact
 								   {
                                         Id = 1,
-										Name = "Camilo",
-										Lastname = "Barron",
-										Address = "Aurelio Melean 778",
+										Name = "CAMILO",
+										Lastname = "BARRON",
+										Address = "CALLE AURELIO MELEAN 778",
 										Telephone = "72771901"
 								   },
 								   new Contact
 								   {
                                         Id = 2,
-										Name = "Edwin",
-										Lastname = "Crespo",
-										Address = "San Benito",
+										Name = "EDWIN",
+										Lastname = "CRESPO",
+										Address = "AVENIDA ANICETO ARCE 864",
 										Telephone = "60729598"
 								   },
                                    new Contact
 								   {
                                         Id = 3,
-										Name = "Brayer",
-										Lastname = "Villagomez",
-										Address = "Quillacollo",
-										Telephone = "xxxxxxxx"
+										Name = "BRAYER",
+										Lastname = "VILLAGOMEZ",
+										Address = "CALLE JUAN DE LA CRUZ 221",
+										Telephone = "72464805"
 								   },
 				           };
 

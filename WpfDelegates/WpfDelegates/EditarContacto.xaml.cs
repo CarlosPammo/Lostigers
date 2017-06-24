@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using WpfDelegates.Model;
+using System.Text.RegularExpressions;
 
 namespace WpfDelegates
 {
@@ -52,5 +53,17 @@ namespace WpfDelegates
 			OnAccept(Contact);
 			Close();
 		}
+
+        private void NumberValidation(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^0-9]+");
+            e.Handled = regex.IsMatch(e.Text);
+        }
+
+        private void TextValidation(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("[^A-Z]+");
+            e.Handled = regex.IsMatch(e.Text);
+        }
 	}
 }
